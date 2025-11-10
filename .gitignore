@@ -1,0 +1,36 @@
+# Dataset images (too large for GitHub)
+GAN_color_images/
+
+# Model checkpoints (large binary files)
+checkpoints/
+*.pth
+*.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
