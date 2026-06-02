@@ -330,29 +330,3 @@ train_dataset = LandscapeColorizationDataset(train_dir, img_size=512)
 4. **GradCAM**: Red areas = high attention, blue = low
 5. **Share**: Use Gradio public link to share with others
 
-## 📞 Support
-
-For issues or questions:
-1. Check error messages carefully
-2. Verify CUDA availability for GPU
-3. Ensure dataset path is correct
-4. Check disk space for checkpoints
-
-## 🏆 Success Criteria
-
-- [x] Script runs without errors
-- [x] Mixed precision training (FP16)
-- [x] Batch size 32
-- [x] No validation code
-- [x] GradCAM generates attention maps
-- [x] Gradio shows 3 outputs
-- [x] LAB color space used
-- [x] Skip connections work
-- [x] Checkpoints saved every 10 epochs
-- [x] Progress bars show metrics
-- [x] Error handling for corrupted images
-- [x] Model loads and runs inference
-
----
-
-**Happy Colorizing! 🎨**
