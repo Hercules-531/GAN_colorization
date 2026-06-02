@@ -316,13 +316,11 @@ train_dataset = LandscapeColorizationDataset(train_dir, img_size=512)
 
 ## ⚠️ Important Notes
 
-- ✅ Use LAB color space (not RGB)
+- ✅ LAB color space (not RGB)
 - ✅ Mixed precision training enabled
-- ✅ Batch size 32 (optimized)
+- ✅ Batch size 32 
 - ✅ No validation dataset
 - ✅ GradCAM has zero training overhead
-- ❌ Do not use "new strategy" from reference repo
-- ❌ Do not include validation code
 
 ## 🤝 Usage Tips
 
